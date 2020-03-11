@@ -26,5 +26,6 @@ before_install:
   - unzip awscliv2.zip
   - sudo ./aws/install
 
+
 install:
   - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
